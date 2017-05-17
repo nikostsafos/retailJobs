@@ -70,14 +70,14 @@ function graphRetailTotal (pageid, w, h) {
         .ticks(5));
 
     // Append text for y axis label
-    svgLineChart.append('text')
-       .attr('class', 'yaxis')
-       .attr('transform', 'rotate(-90)')
-       .attr('y', -40)
-       .attr('x', -height/2)
-       .style('text-anchor', 'middle')
-       .attr('dy', '.71em')
-       .text('million');
+    // svgLineChart.append('text')
+    //    .attr('class', 'yaxis')
+    //    .attr('transform', 'rotate(-90)')
+    //    .attr('y', -40)
+    //    .attr('x', -height/2)
+    //    .style('text-anchor', 'middle')
+    //    .attr('dy', '.71em')
+    //    .text('million');
     
     // Draw line 
     svgLineChart.append("path")
