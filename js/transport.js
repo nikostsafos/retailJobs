@@ -3,8 +3,8 @@
 var contentWidth = document.getElementById('content').clientWidth;
 
 var plotWidth;
-  if (contentWidth >= 800) {plotWidth = contentWidth/2.01;} 
-  else if (contentWidth >= 500) {plotWidth = contentWidth/2.01;}
+  if (contentWidth >= 800) {plotWidth = contentWidth/3.01;} 
+  else if (contentWidth >= 500) {plotWidth = contentWidth/3.01;}
   else { plotWidth = contentWidth/1; }
 
 var plotHeight;

@@ -116,7 +116,7 @@ write.csv(df, 'retailGeneralMerchandise.csv', row.names = F)
 
 # Subset post office and warehousing employment ####
 df = dat[dat$Data == '01' & !dat$period == 'M13' & dat$Seasonal == 'S',]
-df = df[df$Industry %in% c('90919120','43493000'),]
+df = df[df$Industry %in% c('90919120','43493000', '43492000'),]
 df$period = gsub('M', '', df$period)
 
 df$Date = as.Date(paste(df$year, df$period, '01', sep = '-'), format = '%Y-%m-%d')
