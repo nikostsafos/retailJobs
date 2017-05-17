@@ -26,15 +26,12 @@ nav p{
 /********** Header (initial image) **********/
 header {
   background-color: #fff;
-  /*background-color: #000;*/
-  /*height: 100vh;*/
   height: 400px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   color: #000;
-  /*color: #fff;*/
   margin: 0px auto;
 }
 
@@ -60,21 +57,10 @@ body {
   margin: 40px 0px;
 }
 
-p, li {
+p {
   margin: 0px;
   line-height: 1.4em;
   margin-bottom: 15px;
-}
-
-sup, sub {
-  vertical-align: baseline;
-  position: relative;
-  top: -0.4em;
-  font-size: 70%;
-}
-
-sub { 
-  top: 0.4em; 
 }
 
 #content {
@@ -89,11 +75,6 @@ sub {
 }
 
 a { text-decoration: none;}
-
-.countryList li {
-  line-height: 1.4em;
-  margin-bottom: 4px;
-}
 
 /********** D3 **********/
 

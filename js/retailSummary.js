@@ -77,7 +77,7 @@ function graphRetailTotal (pageid, w, h) {
        .attr('x', -height/2)
        .style('text-anchor', 'middle')
        .attr('dy', '.71em')
-       .text('million (seasonally adjusted)');
+       .text('million');
     
     // Draw line 
     svgLineChart.append("path")
@@ -160,7 +160,7 @@ function graphRetailGrowth (pageid, w, h) {
        .attr('x', -height/2)
        .style('text-anchor', 'middle')
        .attr('dy', '.71em')
-       .text('percent of total non-farm employment');
+       .text('percent of total');
     
     // Draw line 
     svgLineChart.append("path")
