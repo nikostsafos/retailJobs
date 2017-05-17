@@ -83,6 +83,11 @@ sub {
   width: 70%;
 }
 
+.graphFootnote {
+  text-align: center;
+  font-size: 90%
+}
+
 a { text-decoration: none;}
 
 .countryList li {
